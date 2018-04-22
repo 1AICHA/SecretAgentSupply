@@ -4,18 +4,4 @@ html {
   font-family: helvetica;
   background-color: black;
   color: white;
-  text-align: center;
-  width: 960px;
-}
-
-.logo-container {
-  font-size: 1rem;
-  display: inline-flex;
-  margin: 0.66rem 0;
-}
-
-.logo-container img {
-  height: 1.5rem;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
 }
