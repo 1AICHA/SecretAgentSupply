@@ -98,5 +98,27 @@ li a {
   width: 100%;
 }
 
-
 /*Location and Hours*/
+.contact {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 960px;
+  margin-bottom: 4rem;
+}
+
+.contact div {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.black {
+  background-color: black;
+  padding: 1rem 0;
+  padding-left: 2rem;
+}
+
+.zwart {
+  color: black;
+}
