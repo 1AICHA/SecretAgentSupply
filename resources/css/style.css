@@ -122,3 +122,12 @@ li a {
 .zwart {
   color: black;
 }
+
+/*footer section*/
+footer {
+  height: 5rem;
+  background-color: black;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
