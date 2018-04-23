@@ -11,15 +11,20 @@ html {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /*header section*/
+.header {
+  margin: 0.66rem 0;
+}
+
 .header img {
   height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 1rem;
-}
-
-.header span {
-  margin: 0.66rem 0;
 }
 
 /*banner section*/
@@ -44,7 +49,19 @@ html {
   margin-bottom: 0.25rem;
 }
 
-.box h1 {
-  font-size: 2rem;
-  font-weight: bold;
+/*navigation section*/
+
+.navigation {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+li {
+  display: inline-block;
+  width: 8.5rem;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
 }
