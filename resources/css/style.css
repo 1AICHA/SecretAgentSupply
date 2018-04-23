@@ -52,15 +52,23 @@ header {
 }
 
 /*navigation section*/
-.navigation {
+.menu {
+  width: 100%;
   background-color: firebrick;
-  padding: 0.75rem 0;
 }
 
-li {
-  display: inline-block;
-  width: 8.5rem;
+.navigation {
+  padding: 0.75rem 0;
+  width: 960px;
+  margin: 0 auto;
 }
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 
 li a {
   color: white;
