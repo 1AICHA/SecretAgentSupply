@@ -2,7 +2,7 @@
 html {
   font-size: 18px;
   font-family: helvetica;
-  background-color: black;
+  /*background-color: black;*/
   color: white;
 }
 
@@ -16,10 +16,18 @@ h1 {
   font-weight: bold;
 }
 
+
 /*header section*/
-.header {
-  margin: 0.66rem 0;
+header {
+  background-color: black;
+  padding: 0.66rem 0;
 }
+
+
+
+/*.header {
+ margin: 0.66rem 0;
+}*/
 
 .header img {
   height: 1.5rem;
@@ -64,4 +72,70 @@ li {
 li a {
   color: white;
   text-decoration: none;
+}
+
+/*product grid section*/
+
+.products {
+  display: flex;
+  margin-top: 3rem;
+  width: 960px;
+  justify-content: space-between;
+
+}
+
+.cat1 {
+  border: 4px solid black;
+  width: 30%;
+}
+
+.cat1 img {
+  height: 9rem;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+}
+
+.cat1 p {
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.cat2 {
+  border: 4px solid black;
+  width: 30%;
+}
+
+.cat2 img {
+  height: 9rem;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.cat2 p {
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.cat3 {
+  border: 4px solid black;
+  width: 30%;
+}
+
+.cat3 img {
+  height: 9rem;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.cat3 p {
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
 }
