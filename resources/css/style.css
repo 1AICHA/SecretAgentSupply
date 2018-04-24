@@ -78,6 +78,7 @@ li a {
 /*product grid section*/
 .products {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 3rem;
   width: 960px;
   justify-content: space-between;
@@ -149,6 +150,7 @@ footer {
 /*Tablet screen in landscape mode is less than 1024px*/
 @media only screen and (max-width: 1024px) {
 
+/*bar menu*/
 .secretmenu {
   display: inherit;
   text-align: center;
@@ -158,7 +160,17 @@ footer {
   display: none;
 }
 
+/*product grid*/
+/*Dus om enkel 2 producten op tablet landscape scherm te krijgen moet je dus
+voor moeder container height instellen en overflow hidden??? en Om Afbeelding te vergroten, width aanpassen????*/
+.products {
+  height: 277.6px;
+  overflow: hidden;
+}
 
+.cat {
+  width: 47%;
+}
 
 
 
