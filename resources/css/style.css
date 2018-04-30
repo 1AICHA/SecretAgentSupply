@@ -22,6 +22,11 @@ header {
   padding: 0.66rem 0;
 }
 
+header div {
+  width: 960px;
+  margin: 0 auto;
+}
+
 
 .header img {
   height: 1.5rem;
@@ -37,12 +42,16 @@ header {
   background-size: cover;
 }
 
+.banner div {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .box {
-  width: 20rem;
+  width: 48%;
   background-color: black;
   position: relative;
   top: 9rem;
-  display: block;
   padding: 2rem 3rem;
 }
 
@@ -50,6 +59,8 @@ header {
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
+
+
 
 /*navigation section*/
 .menu {
@@ -79,9 +90,10 @@ li a {
 .products {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  padding-top: 3rem;
   width: 960px;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 
@@ -108,8 +120,13 @@ li a {
 }
 
 /*Location and Hours*/
+.loca {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .contact {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   margin-top: 3rem;
   width: 960px;
@@ -141,6 +158,11 @@ footer {
   align-items: center;
 }
 
+footer div {
+  width: 960px;
+  margin: 0 auto;
+}
+
 
 /*Navigation bar tablet landscape mode*/
 .secretmenu {
@@ -149,6 +171,15 @@ footer {
 
 /*Tablet screen in landscape mode is less than 1024px*/
 @media only screen and (max-width: 1024px) {
+/*header*/
+header div {
+  width: auto;
+}
+
+/*banner*/
+.box {
+  width: auto;
+}
 
 /*bar menu*/
 .secretmenu {
@@ -160,19 +191,87 @@ footer {
   display: none;
 }
 
+.navigation {
+  width: auto;
+}
+
+
 /*product grid*/
 /*Dus om enkel 2 producten op tablet landscape scherm te krijgen moet je dus
 voor moeder container height instellen en overflow hidden??? en Om Afbeelding te vergroten, width aanpassen????*/
 .products {
   height: 277.6px;
   overflow: hidden;
+  width: auto;
 }
 
 .cat {
   width: 47%;
 }
 
+/*location and contact*/
+.loca {
+  width: auto;
+}
 
+
+.contact {
+  width: auto;
+}
+
+
+}
+
+
+
+
+/*Phone Size screen with width less than 470px*/
+
+@media only screen and (max-width: 470px) {
+
+/*banner section*/
+.banner {
+  height: 15rem;
+}
+
+.box {
+  top: 10rem;
+  padding: 1rem 2rem;
+}
+
+.box p {
+  font-size: 0.77rem;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+/*product grid section*/
+.products {
+  height: 277.6px;
+  overflow: hidden;
+}
+
+.cat {
+  width: 90%;
+}
+
+/*locations and hours*/
+.contact {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.contact div {
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+}
 
 
 }
